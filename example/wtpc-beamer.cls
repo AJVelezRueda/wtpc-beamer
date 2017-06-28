@@ -178,14 +178,14 @@
 \newcommand{\codeinline}[2]{\lstinline[style=#1]{#2}}
 \newcommand{\shellinline}[1]{\colorbox{shellBackground}{\lstinline[style=shell]{#1}}}
 
-\lstnewenvironment{code}[1]{
-  \lstset{#1}
+\lstnewenvironment{code}[2][]{
+  \lstset{#2, #1}
   \mdframed[backgroundcolor=codeBackground,hidealllines=true,%
     innerleftmargin=0cm,innerrightmargin=0cm,innertopmargin=-0.5cm,innerbottommargin=-0.5cm]
 }
 {\endmdframed}
-\lstnewenvironment{shell}{
-  \lstset{style=shell}
+\lstnewenvironment{shell}[1][]{
+  \lstset{style=shell, #1}
   \mdframed[backgroundcolor=shellBackground,hidealllines=true,%
     innerleftmargin=0cm,innerrightmargin=0cm,innertopmargin=-0.5cm,innerbottommargin=-0.5cm]
 }
