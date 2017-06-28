@@ -117,7 +117,7 @@
   columns=fullflexible,
   keepspaces=true,
   numbers=left,
-  numbersep=5pt,
+  numbersep=3pt,
   showspaces=false,
   showstringspaces=false,
   showtabs=false,
