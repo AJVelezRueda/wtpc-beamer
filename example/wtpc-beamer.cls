@@ -61,7 +61,6 @@
 \RequirePackage{psfrag}
 \RequirePackage{verbatim}
 \RequirePackage{xcolor}
-\RequirePackage{paralist}
 
 %% Idioma
 \RequirePackage[spanish]{babel}
