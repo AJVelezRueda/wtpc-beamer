@@ -38,7 +38,7 @@
 }
 \DeclareOption{rodrigo}{
   \author{Rodrigo Lugones}
-  \date{\href{mailto:rodrigolugones@gmail.com}{rodrigolugones@gmail.com}}
+  \date{\href{mailto:rlugones@df.uba.ar}{rlugones@df.uba.ar}}
   \definecolor{WTPCcolor}{RGB}{127,232,76}
 }
 \ProcessOptions\relax
